@@ -17,8 +17,11 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start:original": "react-scripts start",
+    "start": "craco start",
+    "build:original": "react-scripts build",
+    "build": "craco build",
+    "test:original": "react-scripts test",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -39,5 +42,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@axe-core/react": "^4.7.1",
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
+    "@types/react-dev-utils": "^9.0.11",
+    "@types/webpack-bundle-analyzer": "^4.6.0",
+    "@welldone-software/why-did-you-render": "^7.0.1",
+    "sass": "^1.62.1",
+    "webpack-bundle-analyzer": "^4.8.0"
+  },
+  "cracoConfig": "config/craco/index.ts"
 }
