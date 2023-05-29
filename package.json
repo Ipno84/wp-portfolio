@@ -1,0 +1,26 @@
+{
+  "name": "wp-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wp:version": "wp-env --version",
+    "wp:start": "wp-env start",
+    "wp:stop": "wp-env stop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ipno84/wp-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ipno84/wp-portfolio/issues"
+  },
+  "homepage": "https://github.com/Ipno84/wp-portfolio#readme",
+  "devDependencies": {
+    "@wordpress/env": "^8.0.0"
+  }
+}
